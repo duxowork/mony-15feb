@@ -14,13 +14,6 @@
   --btn-color-light: #77a382;
 }
 /* button */
-#beranda {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 * {
   margin: 0;
   padding: 0;
@@ -187,6 +180,13 @@ h1 {
 
 /* BERANDA */
 /* sec-beranda */
+#beranda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #beranda .responsive img {
   display: block;
   margin: auto;

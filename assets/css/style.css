@@ -32,6 +32,7 @@
   text-align: center;
   cursor: pointer;
   color: var(--bg-color);
+  text-decoration: none;
 }
 
 .bttn span {
@@ -221,39 +222,32 @@ h1 {
   border-color: #c5d7c9;
   border-style: solid;
   border-width: 2px;
-  padding: 50px 35px;
+  padding: 50px 50px;
+  margin: 30px 20px;
   border-radius: 10px;
   align-self: flex-end;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
-}
-
-#fitur .bounce:hover {
-  animation-name: bounce;
-  animation-timing-function: ease;
-}
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+  height: 300px;
 }
 
 #fitur .sec-fitur img {
-  height: 135px;
-  width: auto;
+  width: 200px;
+  height: auto;
+  /* width: auto; */
 }
+
 /* end sec-fitur */
 
 /* sec-anggota */
+#anggota .row {
+  margin: auto;
+}
+
 #anggota .content {
   position: relative;
+  margin: auto;
 }
 
 #anggota .content .sec-fitur {
@@ -678,6 +672,11 @@ h1 {
   margin-bottom: 82px;
 }
 
+#visimisi .container .fitur .sec-fitur li {
+  padding: 0.3em 0 1em 1em;
+  list-style-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.53963 15.0278L0.5 11.9881L4.97422 7.51394L0.5 3.03969L3.53963 0L8.01547 4.47588L8.36909 4.82616L11.0535 7.51053L11.0551 7.51209L10.7016 7.86894L8.01722 10.5533L8.0155 10.5516L3.53963 15.0278ZM1.91422 11.9881L3.53963 13.6136L8.01225 9.14094L8.01397 9.14263L9.64259 7.51394L8.01363 5.88494L7.66025 5.53494L3.53963 1.41425L1.91422 3.03969L6.38844 7.51394L1.91422 11.9881Z' fill='%23121212'/%3E%3C/svg%3E");
+}
+
 #visimisi .container img {
   width: 75%;
   position: absolute;
@@ -875,6 +874,10 @@ h1 {
   text-align: center;
 }
 
+#question-content #question .button-faq a {
+  text-decoration: none;
+}
+
 #question-content #question .button {
   background-color: var(--btn-color-dark);
   border: none;
@@ -971,15 +974,13 @@ h1 {
   #fitur .sec-fitur {
     display: block;
     position: relative;
-    padding: 20px;
-    height: 280px;
+    padding: 60px 20px;
   }
 
-  #fitur .pict {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    max-width: 35%;
+  #fitur .sec-fitur img {
+    width: 130px;
+    height: auto;
+    /* width: auto; */
   }
 
   #fitur .content {
@@ -1519,6 +1520,7 @@ h1 {
   #question-content #question .button-faq .button,
   #question-content #question .button-faq .button-email {
     margin: 10px;
+    text-decoration: none;
   }
 
   /* END FAQ.HTML */

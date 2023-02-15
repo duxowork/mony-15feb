@@ -974,11 +974,13 @@ h1 {
   #fitur .sec-fitur {
     display: block;
     position: relative;
-    padding: 60px 20px;
+    padding: 10px 20px;
+    height: 200px;
+    margin: 10px 10px;
   }
 
   #fitur .sec-fitur img {
-    width: 130px;
+    width: 100px;
     height: auto;
     /* width: auto; */
   }
@@ -987,8 +989,8 @@ h1 {
     display: block;
     position: absolute;
     z-index: 2;
-    left: 45%;
-    max-width: 40%;
+    left: 120px;
+    max-width: 55%;
   }
   /* end fitur */
 
@@ -1326,11 +1328,11 @@ h1 {
   #visimisi .container .row {
     margin-right: 10px;
     margin-left: 35px;
+    margin-top: 25px;
   }
 
   #visimisi .container .title {
-    display: block;
-    margin-bottom: 20px;
+    margin: auto;
   }
 
   #company-profil .container .row .content {
